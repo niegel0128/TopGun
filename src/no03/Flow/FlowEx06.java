@@ -1,0 +1,27 @@
+package no03.Flow;
+
+public class FlowEx06 
+{
+	public static void main(String[] args)
+	{
+	int score = (int)(Math.random() * 10) + 1;
+	
+	switch(score*100)
+		{
+			case 100 : 
+				System.out.println("당신의 점수는 100이고, 상품은 자전거 입니다.");
+				break;
+			case 200 : 
+				System.out.println("당신의 점수는 200이고, 상품은 TV 입니다.");
+				break;
+			case 300 : 
+				System.out.println("당신의 점수는 300이고, 상품은 노트북 입니다.");
+				break;
+			case 400 : 
+				System.out.println("당신의 점수는 400이고, 상품은 자동차 입니다.");
+				break;
+			default : 
+				System.out.println("죄송하지만 당신의 점수에 해당상품이 없습니다.");
+		}
+	}
+}
