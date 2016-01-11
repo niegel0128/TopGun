@@ -1,3 +1,4 @@
+package no11.Exception;
 
 public class PackageTest 
 {
